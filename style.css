@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(
+      to top right,
+      rgb(99, 229, 255),
+      rgb(121, 211, 225),
+      rgb(142, 193, 195),
+      rgb(164, 175, 166),
+      rgb(185, 157, 136),
+      rgb(207, 139, 106),
+      rgb(181, 128, 125),
+      rgb(154, 118, 145),
+      rgb(128, 107, 164),
+      rgb(102, 96, 183),
+      rgb(75, 86, 203),
+      rgb(49, 75, 222)
+    );
+  }
+  .container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: red;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  textarea {
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+  }
+  textarea:focus {
+    background-color: pink;
+  }
+
+  button {
+    background-image: linear-gradient(
+      to right,
+      #403b4a 0%,
+      #e7e9bb 51%,
+      #403b4a 100%
+    );
+  }
+  button {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  #output {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+  }
+  h2 {
+    text-decoration: underline blue dotted;
+    font-size: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    h1 {
+      font-size: 40px;
+    }
+    textarea {
+      width: 200px;
+    }
+  }
