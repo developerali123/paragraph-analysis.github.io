@@ -27,7 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    background-color: red;
+    background-color: #3498db;
     padding: 10px;
   }
   h1 {
